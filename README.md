@@ -16,4 +16,4 @@ Ubuntu install PostgreSQL module for php5 with:
 Library usage:
 
     $connection = Connection::getInstance('host_1','your_database_name');
-    $connection->exec('SELECT * FROM ....');
+    $results = $connection->exec('SELECT * FROM ....');
